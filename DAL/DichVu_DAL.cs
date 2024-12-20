@@ -36,9 +36,6 @@ namespace DAL
                     LoaiXe = reader["LoaiXe"].ToString(),
                     BienSoXe = reader["BienSoXe"].ToString(),
                 });
-
-
-
             }
             return danhSach;
         }
