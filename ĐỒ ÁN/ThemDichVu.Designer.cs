@@ -56,7 +56,7 @@
             this.label6.ForeColor = System.Drawing.Color.DimGray;
             this.label6.Location = new System.Drawing.Point(338, 19);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(214, 26);
+            this.label6.Size = new System.Drawing.Size(183, 24);
             this.label6.TabIndex = 52;
             this.label6.Text = "CHI TIẾT DỊCH VỤ";
             // 
@@ -127,7 +127,7 @@
             this.cbb_LoaiXe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_LoaiXe.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbb_LoaiXe.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbb_LoaiXe.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbb_LoaiXe.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_LoaiXe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbb_LoaiXe.ItemHeight = 30;
             this.cbb_LoaiXe.Location = new System.Drawing.Point(528, 86);
@@ -144,7 +144,7 @@
             this.cbb_TT.Enabled = false;
             this.cbb_TT.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbb_TT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbb_TT.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbb_TT.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_TT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbb_TT.ItemHeight = 30;
             this.cbb_TT.Location = new System.Drawing.Point(130, 150);
@@ -176,7 +176,7 @@
             this.cbb_LoaiThe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_LoaiThe.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbb_LoaiThe.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbb_LoaiThe.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbb_LoaiThe.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_LoaiThe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbb_LoaiThe.ItemHeight = 30;
             this.cbb_LoaiThe.Location = new System.Drawing.Point(528, 19);
@@ -190,9 +190,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(28, 154);
+            this.label7.Location = new System.Drawing.Point(33, 158);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 25);
+            this.label7.Size = new System.Drawing.Size(79, 20);
             this.label7.TabIndex = 42;
             this.label7.Text = "Tình trạng:";
             // 
@@ -201,9 +201,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(427, 153);
+            this.label5.Location = new System.Drawing.Point(432, 158);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 25);
+            this.label5.Size = new System.Drawing.Size(79, 20);
             this.label5.TabIndex = 36;
             this.label5.Text = "Biển số xe:";
             // 
@@ -233,9 +233,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(444, 25);
+            this.label3.Location = new System.Drawing.Point(446, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 25);
+            this.label3.Size = new System.Drawing.Size(65, 20);
             this.label3.TabIndex = 34;
             this.label3.Text = "Loại thẻ:";
             // 
@@ -244,9 +244,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(452, 89);
+            this.label4.Location = new System.Drawing.Point(452, 95);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 25);
+            this.label4.Size = new System.Drawing.Size(59, 20);
             this.label4.TabIndex = 35;
             this.label4.Text = "Loại xe:";
             // 
@@ -278,7 +278,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(60, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 25);
+            this.label1.Size = new System.Drawing.Size(52, 20);
             this.label1.TabIndex = 32;
             this.label1.Text = "ID thẻ:";
             // 
@@ -287,9 +287,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(32, 90);
+            this.label2.Location = new System.Drawing.Point(37, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 25);
+            this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 33;
             this.label2.Text = "ID căn hộ:";
             // 

@@ -52,7 +52,7 @@
             this.label6.ForeColor = System.Drawing.Color.DimGray;
             this.label6.Location = new System.Drawing.Point(118, 21);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(342, 26);
+            this.label6.Size = new System.Drawing.Size(298, 24);
             this.label6.TabIndex = 64;
             this.label6.Text = "CHI TIẾT TÀI KHOẢN CĂN HỘ";
             // 
@@ -120,7 +120,7 @@
             this.cbb_IDCH.Enabled = false;
             this.cbb_IDCH.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbb_IDCH.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbb_IDCH.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbb_IDCH.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_IDCH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbb_IDCH.ItemHeight = 30;
             this.cbb_IDCH.Location = new System.Drawing.Point(155, 87);
@@ -157,7 +157,7 @@
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(20, 151);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(133, 25);
+            this.label7.Size = new System.Drawing.Size(110, 20);
             this.label7.TabIndex = 42;
             this.label7.Text = "Tên đăng nhập:";
             // 
@@ -189,7 +189,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(63, 215);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 25);
+            this.label3.Size = new System.Drawing.Size(73, 20);
             this.label3.TabIndex = 34;
             this.label3.Text = "Mật khẩu:";
             // 
@@ -222,7 +222,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(41, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 25);
+            this.label1.Size = new System.Drawing.Size(92, 20);
             this.label1.TabIndex = 32;
             this.label1.Text = "ID tài khoản:";
             // 
@@ -233,7 +233,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(61, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 25);
+            this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 33;
             this.label2.Text = "ID căn hộ:";
             // 

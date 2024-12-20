@@ -127,12 +127,12 @@
             this.cbb_IDCH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_IDCH.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbb_IDCH.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbb_IDCH.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbb_IDCH.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_IDCH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbb_IDCH.ItemHeight = 30;
             this.cbb_IDCH.Location = new System.Drawing.Point(130, 83);
             this.cbb_IDCH.Name = "cbb_IDCH";
-            this.cbb_IDCH.Size = new System.Drawing.Size(273, 36);
+            this.cbb_IDCH.Size = new System.Drawing.Size(255, 36);
             this.cbb_IDCH.TabIndex = 47;
             // 
             // cbb_TT
@@ -143,12 +143,12 @@
             this.cbb_TT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_TT.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbb_TT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbb_TT.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbb_TT.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_TT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbb_TT.ItemHeight = 30;
             this.cbb_TT.Location = new System.Drawing.Point(130, 150);
             this.cbb_TT.Name = "cbb_TT";
-            this.cbb_TT.Size = new System.Drawing.Size(273, 36);
+            this.cbb_TT.Size = new System.Drawing.Size(255, 36);
             this.cbb_TT.TabIndex = 46;
             // 
             // cbb_LoaiXe
@@ -164,7 +164,7 @@
             this.cbb_LoaiXe.ItemHeight = 30;
             this.cbb_LoaiXe.Location = new System.Drawing.Point(528, 83);
             this.cbb_LoaiXe.Name = "cbb_LoaiXe";
-            this.cbb_LoaiXe.Size = new System.Drawing.Size(273, 36);
+            this.cbb_LoaiXe.Size = new System.Drawing.Size(255, 36);
             this.cbb_LoaiXe.TabIndex = 45;
             this.cbb_LoaiXe.SelectedIndexChanged += new System.EventHandler(this.cbb_LoaiThe_SelectedIndexChanged);
             // 
@@ -176,12 +176,12 @@
             this.cbb_LoaiThe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_LoaiThe.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbb_LoaiThe.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbb_LoaiThe.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbb_LoaiThe.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_LoaiThe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbb_LoaiThe.ItemHeight = 30;
             this.cbb_LoaiThe.Location = new System.Drawing.Point(528, 22);
             this.cbb_LoaiThe.Name = "cbb_LoaiThe";
-            this.cbb_LoaiThe.Size = new System.Drawing.Size(273, 36);
+            this.cbb_LoaiThe.Size = new System.Drawing.Size(255, 36);
             this.cbb_LoaiThe.TabIndex = 44;
             this.cbb_LoaiThe.SelectedIndexChanged += new System.EventHandler(this.cbb_LoaiThe_SelectedIndexChanged);
             // 
@@ -226,7 +226,7 @@
             this.txt_BSX.PasswordChar = '\0';
             this.txt_BSX.PlaceholderText = "";
             this.txt_BSX.SelectedText = "";
-            this.txt_BSX.Size = new System.Drawing.Size(273, 39);
+            this.txt_BSX.Size = new System.Drawing.Size(255, 36);
             this.txt_BSX.TabIndex = 40;
             // 
             // label3
@@ -270,7 +270,7 @@
             this.txt_IDThe.PasswordChar = '\0';
             this.txt_IDThe.PlaceholderText = "";
             this.txt_IDThe.SelectedText = "";
-            this.txt_IDThe.Size = new System.Drawing.Size(273, 39);
+            this.txt_IDThe.Size = new System.Drawing.Size(255, 36);
             this.txt_IDThe.TabIndex = 37;
             // 
             // label1
