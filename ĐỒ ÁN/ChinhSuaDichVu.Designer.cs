@@ -56,7 +56,7 @@
             this.label6.ForeColor = System.Drawing.Color.DimGray;
             this.label6.Location = new System.Drawing.Point(331, 22);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(214, 26);
+            this.label6.Size = new System.Drawing.Size(183, 24);
             this.label6.TabIndex = 56;
             this.label6.Text = "CHI TIẾT DỊCH VỤ";
             // 
@@ -166,6 +166,7 @@
             this.cbb_LoaiXe.Name = "cbb_LoaiXe";
             this.cbb_LoaiXe.Size = new System.Drawing.Size(273, 36);
             this.cbb_LoaiXe.TabIndex = 45;
+            this.cbb_LoaiXe.SelectedIndexChanged += new System.EventHandler(this.cbb_LoaiThe_SelectedIndexChanged);
             // 
             // cbb_LoaiThe
             // 
@@ -191,7 +192,7 @@
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(28, 154);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 25);
+            this.label7.Size = new System.Drawing.Size(79, 20);
             this.label7.TabIndex = 42;
             this.label7.Text = "Tình trạng:";
             // 
@@ -202,7 +203,7 @@
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(427, 153);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 25);
+            this.label5.Size = new System.Drawing.Size(79, 20);
             this.label5.TabIndex = 36;
             this.label5.Text = "Biển số xe:";
             // 
@@ -235,7 +236,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(444, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 25);
+            this.label3.Size = new System.Drawing.Size(65, 20);
             this.label3.TabIndex = 34;
             this.label3.Text = "Loại thẻ:";
             // 
@@ -246,7 +247,7 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(452, 89);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 25);
+            this.label4.Size = new System.Drawing.Size(59, 20);
             this.label4.TabIndex = 35;
             this.label4.Text = "Loại xe:";
             // 
@@ -279,7 +280,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(60, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 25);
+            this.label1.Size = new System.Drawing.Size(52, 20);
             this.label1.TabIndex = 32;
             this.label1.Text = "ID thẻ:";
             // 
@@ -290,7 +291,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(32, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 25);
+            this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 33;
             this.label2.Text = "ID căn hộ:";
             // 

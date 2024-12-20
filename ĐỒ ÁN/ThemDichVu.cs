@@ -147,7 +147,7 @@ namespace Đồ_án_desktop_2._0
                 if (selectedLoaiThe != "Thẻ xe")
                 {
                     txt_BSX.Enabled = false;
-                    txt_BSX.Clear(); // Xóa dữ liệu cũ
+                    txt_BSX.Text = string.Empty; // Clear nội dung TextBox
                     cbb_LoaiXe.Enabled = false;
                     cbb_LoaiXe.SelectedIndex = -1; // Reset ComboBox
                 }

@@ -23,6 +23,10 @@ namespace Đồ_án_desktop_2._0
         private string LT;
         private string LX;
         private string IDCH;
+        private string BSX;
+
+        // Lưu trạng thái ban đầu của biển số xe
+        private string originalBSX;
         public ChinhSuaDichVu(string ID_The, string ID_CanHo, string TinhTrang, string LoaiThe, string LoaiXe, string BienSoXe)
         {
             InitializeComponent();
@@ -34,10 +38,16 @@ namespace Đồ_án_desktop_2._0
             cbb_LoaiThe.Text = LoaiThe;
             cbb_LoaiXe.Text = LoaiXe;
             txt_BSX.Text = BienSoXe;
+
+            // Lưu trạng thái ban đầu
             TT = TinhTrang;
             LT = LoaiThe;
             LX = LoaiXe;
             IDCH = ID_CanHo;
+            BSX = BienSoXe;
+
+            // Lưu giá trị biển số xe ban đầu
+            originalBSX = BienSoXe;
         }
 
 
@@ -149,6 +159,22 @@ namespace Đồ_án_desktop_2._0
             }
         }
 
+        // Hàm xử lý việc xóa biển số xe nếu loại thẻ không phải "Thẻ xe"
+        private void HandleBienSoXe()
+        {
+            string selectedLoaiThe = cbb_LoaiThe.Text;
+
+            if (selectedLoaiThe != "Thẻ xe")
+            {
+                txt_BSX.Clear(); // Xóa nội dung TextBox biển số xe
+                txt_BSX.Enabled = false; // Vô hiệu hóa TextBox biển số xe
+            }
+            else
+            {
+                txt_BSX.Enabled = true; // Kích hoạt lại TextBox biển số xe
+                txt_BSX.Text = originalBSX; // Khôi phục lại giá trị biển số xe ban đầu nếu có
+            }
+        }
         private void btn_Huy_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Bạn có muốn hủy thao tác?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -177,6 +203,9 @@ namespace Đồ_án_desktop_2._0
 
         private void cbb_LoaiThe_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // Gọi hàm xử lý riêng cho TextBox Biển Số Xe
+            HandleBienSoXe();
+
             // Kiểm tra giá trị được chọn trong ComboBox Loại Thẻ
             if (cbb_LoaiThe.SelectedItem != null)
             {
@@ -185,15 +214,16 @@ namespace Đồ_án_desktop_2._0
                 // Nếu loại thẻ không phải "Thẻ xe", vô hiệu hóa TextBox
                 if (selectedLoaiThe != "Thẻ xe")
                 {
-                    txt_BSX.Enabled = false;
+
                     cbb_LoaiXe.Enabled = false;
                     cbb_LoaiXe.SelectedIndex = -1; // Reset ComboBox
+
                 }
                 else
                 {
-                    txt_BSX.Enabled = true;
                     cbb_LoaiXe.Enabled = true;
                 }
+
             }
         }
     }

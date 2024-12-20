@@ -155,6 +155,11 @@ namespace Đồ_án_desktop_2._0
 
         private void btn_Xoa_Click(object sender, EventArgs e)
         {
+            if (dgv_TienIch.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Vui lòng chọn tiện ích để xóa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             DialogResult result = MessageBox.Show("Bạn có chắc chắn xóa tiện ích này ?", "Xóa tiện ích", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (result == DialogResult.Yes)
             {
