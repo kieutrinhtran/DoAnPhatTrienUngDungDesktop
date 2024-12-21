@@ -50,7 +50,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(68, 86);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 25);
+            this.label1.Size = new System.Drawing.Size(91, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID Phản Hồi:";
             // 
@@ -61,7 +61,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(66, 150);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 25);
+            this.label2.Size = new System.Drawing.Size(95, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "ID Khiếu Nại:";
             // 
@@ -72,7 +72,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(88, 214);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 25);
+            this.label3.Size = new System.Drawing.Size(74, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Nội dung:";
             // 
@@ -83,7 +83,7 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(90, 314);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 25);
+            this.label4.Size = new System.Drawing.Size(73, 20);
             this.label4.TabIndex = 3;
             this.label4.Text = "Ngày gửi:";
             // 
@@ -192,7 +192,7 @@
             this.label6.ForeColor = System.Drawing.Color.DimGray;
             this.label6.Location = new System.Drawing.Point(248, 26);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(231, 26);
+            this.label6.Size = new System.Drawing.Size(200, 24);
             this.label6.TabIndex = 30;
             this.label6.Text = "CHI TIẾT PHẢN HỒI";
             // 
@@ -228,7 +228,7 @@
             this.dtp_NgayGui.Name = "dtp_NgayGui";
             this.dtp_NgayGui.Size = new System.Drawing.Size(454, 36);
             this.dtp_NgayGui.TabIndex = 32;
-            this.dtp_NgayGui.Value = new System.DateTime(2024, 12, 19, 3, 43, 16, 0);
+            this.dtp_NgayGui.Value = new System.DateTime(2024, 12, 21, 0, 0, 0, 0);
             this.dtp_NgayGui.ValueChanged += new System.EventHandler(this.dtp_NgayGui_ValueChanged);
             // 
             // PhanHoi
