@@ -228,7 +228,7 @@
             this.dtp_NgayGui.Name = "dtp_NgayGui";
             this.dtp_NgayGui.Size = new System.Drawing.Size(454, 36);
             this.dtp_NgayGui.TabIndex = 32;
-            this.dtp_NgayGui.Value = new System.DateTime(2024, 12, 21, 0, 0, 0, 0);
+            this.dtp_NgayGui.Value = new System.DateTime(2024, 12, 20, 0, 0, 0, 0);
             this.dtp_NgayGui.ValueChanged += new System.EventHandler(this.dtp_NgayGui_ValueChanged);
             // 
             // PhanHoi

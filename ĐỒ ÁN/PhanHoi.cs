@@ -25,6 +25,10 @@ namespace Đồ_án_desktop_2._0
             this.idKhieuNai = idKhieuNai;
             txt_IDKhieuNai.Text = idKhieuNai;
             txt_IDPhanHoi.Text = "PH" + idKhieuNai.Substring(2);  // Tạo ID phản hồi tự động
+
+            // Đặt ngày gửi mặc định là ngày hiện tại và vô hiệu hóa chỉnh sửa
+            dtp_NgayGui.Value = DateTime.Today;
+            dtp_NgayGui.Enabled = false; // Không cho chỉnh sửa ngày
         }
 
         // Hàm xử lý khi nhấn nút Phản hồi
